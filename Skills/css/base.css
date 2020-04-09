@@ -22,6 +22,12 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+	text-align: center;
+	font-size: 4em;
+	font-family: 'Buenard', serif;
+}
+
 .preview-open {
 	overflow: hidden;
 }
@@ -99,7 +105,7 @@ main {
 }
 
 /* Header */
-.codrops-header {
+.waspys-header {
 	position: relative;
 	z-index: 100;
 	display: flex;
@@ -109,7 +115,7 @@ main {
 	padding: 2rem;
 }
 
-.codrops-header__title {
+.waspys-header__title {
 	font-size: 1em;
 	font-weight: bold;
 	margin: 0;
@@ -127,7 +133,7 @@ main {
 }
 
 /* Top Navigation Style */
-.codrops-links {
+.waspys-links {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -136,7 +142,7 @@ main {
 	white-space: nowrap;
 }
 
-.codrops-icon {
+.waspys-icon {
 	display: inline-block;
 	margin: 0.15em;
 	padding: 0.25em;
@@ -469,12 +475,12 @@ main {
 		display: block;
 		padding: 0.85em;
 	}
-	.codrops-header {
+	.waspys-header {
 		flex-direction: column;
 		align-items: center;
 		padding-bottom: 5rem;
 	}
-	.codrops-header__title {
+	.waspys-header__title {
 		font-weight: bold;
 		padding-bottom: 0.25em;
 		text-align: center;
@@ -486,7 +492,7 @@ main {
 		display: block;
 		margin: 1em auto;
 	}
-	.codrops-links {
+	.waspys-links {
 		margin: 0;
 	}
 }

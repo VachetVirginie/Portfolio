@@ -1,12 +1,12 @@
 /**
  * demo.js
- * http://www.codrops.com
+ * http://www.waspys.com
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  * 
- * Copyright 2018, Codrops
- * http://www.codrops.com
+ * Copyright 2018, waspys
+ * http://www.waspys.com
  */
 {
     const lineEq = (y2, y1, x2, x1, currentVal) => {

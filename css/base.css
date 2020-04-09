@@ -9,7 +9,7 @@ body {
 	--color-text: #fff;
 	--color-bg: #252525;
 	--color-link: #fff;
-	--color-link-hover: #F73378;
+	--color-link-hover: #2c35b7;
 	--color-bg-item1: #15171b;
 	--color-bg-item2: #2c35b7;
 	--color-bg-item3: #0f1013;
@@ -141,7 +141,7 @@ main {
 }
 
 /* Header */
-.codrops-header {
+.waspys-header {
 	position: relative;
 	z-index: 100;
 	display: flex;
@@ -151,7 +151,7 @@ main {
 	align-self: start;
 }
 
-.codrops-header__title {
+.waspys-header__title {
 	font-size: 1rem;
 	line-height: 1;
 	font-weight: normal;
@@ -172,7 +172,7 @@ main {
 }
 
 /* Top Navigation Style */
-.codrops-links {
+.waspys-links {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -181,7 +181,7 @@ main {
 	font-size: 0.85rem;
 }
 
-.codrops-icon {
+.waspys-icon {
 	display: inline-block;
 	padding: 0.25em;
 }
@@ -415,16 +415,16 @@ main {
 		grid-template-columns: 50% 50%;
 		grid-template-rows: auto auto auto;
 		grid-template-areas: 
-		'codropsheader info'
+		'waspysheader info'
 		'... ...'
 		'github ...';
 	}
-	.codrops-header {
-		grid-area: codropsheader;
+	.waspys-header {
+		grid-area: waspysheader;
 		padding: 0;
 		justify-content: start;
 	}
-	.codrops-links {
+	.waspys-links {
 		margin: 0;
 	}
 	.frame a {
